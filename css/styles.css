@@ -145,7 +145,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-        color:var(--title-color);
+        color: var(--title-color);
 }
 .team-member {
     
@@ -212,7 +212,7 @@ body {
 .portfolio-btn:hover,
 .portfolio-btn:focus {
 
-        color: #FFFFFF;
+        color: #404BBF;
 }
 .portfolio-btn {
         cursor: pointer;
