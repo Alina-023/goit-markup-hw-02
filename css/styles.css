@@ -10,6 +10,7 @@ list-style: none;
 --bg-color: #ffffff;
 --link-color: #2e2f42;
 --title-color: #2e2f42;
+--bg-btn-color: #F4F4FD;
 
 }
 /*------------INDEX----------*/
@@ -144,7 +145,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-        color: var(--title-color);
+        color:var(--title-color);
 }
 .team-member {
     
@@ -205,6 +206,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4D5AE5;
+        background-color: var(--bg-btn-color);
 }
 
 .portfolio-btn:hover,
