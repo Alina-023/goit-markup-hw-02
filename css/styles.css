@@ -6,7 +6,7 @@
 list-style: none;
 }
 
-/*INDEX*/
+/*------------INDEX----------*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -102,8 +102,12 @@ body {
 }
 
 .team {
-    background-color: #FFFFFF
+        background-color: #F4F4FD
 
+}
+
+.team-item {
+        background-color: #FFFFFF
 }
 
 .team-title {
@@ -164,12 +168,26 @@ body {
         color: #F4F4FD;
 }
 
-/*PORTFOLIO*/
+/*------------PORTFOLIO-------------*/
 
 /*BUTTONS*/
+.portfolio-btn {
 
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
 
+.portfolio-btn:hover,
+.portfolio-btn:focus {
 
+        color: #FFFFFF;
+}
+.portfolio-btn {
+        cursor: pointer;
+}
 
 
 
