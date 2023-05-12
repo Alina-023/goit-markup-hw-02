@@ -10,7 +10,6 @@ list-style: none;
 --bg-color: #ffffff;
 --link-color: #2e2f42;
 --title-color: #2e2f42;
---bg-btn-color: #F4F4FD;
 
 }
 /*------------INDEX----------*/
@@ -206,13 +205,13 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4D5AE5;
-        background-color: var(--bg-btn-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
 
-        color: #404BBF;
+        color: #FFFFFF;
+        background-color: #404BBF;
 }
 .portfolio-btn {
         cursor: pointer;
