@@ -8,6 +8,7 @@ list-style: none;
 
 :root {
 --bg-color: #ffffff;
+--link-color: #2e2f42;
 
 }
 /*------------INDEX----------*/
@@ -46,7 +47,8 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        --color: #2e2f42;
+        color:var(--link-color)
+       
 }
 
 .address {
